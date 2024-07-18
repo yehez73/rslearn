@@ -1,0 +1,23 @@
+[package]
+name = "rslearn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+
+[[bin]]
+name = "guessing"
+path = "src/guessing.rs"
+
+[[bin]]
+name = "temperature"
+path = "src/temperature.rs"
+
+[[bin]]
+name = "fibonacci"
+path = "src/fibonacci.rs"
+
+[[bin]]
+name = "song"
+path = "src/song.rs"
